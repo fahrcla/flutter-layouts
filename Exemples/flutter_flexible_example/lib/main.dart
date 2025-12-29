@@ -1,3 +1,7 @@
+/******************************************
+**** Exemple Expanded vs Flexible  ********
+*******************************************/
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MonApp());

@@ -1060,16 +1060,6 @@ Ces widgets vont transformer vos layouts rigides en interfaces adaptatives et pr
 ## Leçon 3.2 : Expanded et Flexible - Layouts Proportionnels
 
 
-### 🎯 Objectifs d'Apprentissage SMART
-
-À la fin de cette leçon, vous serez capable de :
-
-1. **Calculer** (Bloom 3) : Déterminer les proportions d'espace avec flex ratios 
-2. **Différencier** (Bloom 4) : Choisir entre Expanded et Flexible selon le contexte
-3. **Implémenter** (Bloom 3) : Créer une interface 30/70 avec Expanded 
-4. **Adapter** (Bloom 5) : Résoudre un overflow en utilisant Expanded 
-5. **Composer** (Bloom 6) : Concevoir un layout responsive avec Flexible 
-
 ---
 
 ### 📚 Rappel : Le Problème à Résoudre
@@ -1094,7 +1084,7 @@ Row(
 
 ---
 
-### 📚 Contenu Théorique
+### 📚 Généralités
 
 #### Expanded : Forcer l'Occupation de l'Espace
 
@@ -1211,33 +1201,6 @@ flex: 3, 1 (3× plus grand) :
 └───────────────────────────────────────┘
 ```
 
----
-
-### 💡 Connexion C# : Grid Proportions (WPF)
-
-```xml
-<!-- WPF - Grid avec colonnes proportionnelles -->
-<Grid>
-  <Grid.ColumnDefinitions>
-    <ColumnDefinition Width="1*" />  <!-- 1 part -->
-    <ColumnDefinition Width="2*" />  <!-- 2 parts -->
-    <ColumnDefinition Width="1*" />  <!-- 1 part -->
-  </Grid.ColumnDefinitions>
-</Grid>
-```
-
-```dart
-// Flutter - Expanded avec flex (même concept !)
-Row(
-  children: [
-    Expanded(flex: 1, child: ...),  // 1 part
-    Expanded(flex: 2, child: ...),  // 2 parts
-    Expanded(flex: 1, child: ...),  // 1 part
-  ],
-)
-```
-
-**Point commun** : Proportions relatives (1*, 2*, 1*) = (flex: 1, 2, 1) !
 
 ---
 
