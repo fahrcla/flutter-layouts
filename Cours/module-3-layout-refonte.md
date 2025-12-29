@@ -1897,19 +1897,6 @@ Ces widgets vont vous permettre de créer des interfaces avec plusieurs "couches
 ## Leçon 3.3 : Stack et Positioned - La Profondeur (Z)
 
 
-
-### 🎯 Objectifs d'Apprentissage SMART
-
-À la fin de cette leçon, vous serez capable de :
-
-1. **Expliquer** (Bloom 2) : Le concept de z-index avec schéma 
-2. **Positionner** (Bloom 3) : Un widget avec Positioned(top, left, right, bottom) 
-3. **Créer** (Bloom 3) : Un overlay semi-transparent sur une image 
-4. **Analyser** (Bloom 4) : L'ordre d'empilement dans un Stack existant
-5. **Composer** (Bloom 6) : Une carte avec badges superposés 
-
----
-
 ### 📚 Rappel : Le Problème à Résoudre
 
 Row et Column organisent les widgets dans un **plan 2D** (X, Y) :
@@ -1934,7 +1921,7 @@ Mais comment **superposer** des widgets (comme des calques Photoshop) ?
 
 ---
 
-### 📚 Contenu Théorique
+### 📚 Généralités
 
 #### Stack : La Superposition
 
@@ -2483,9 +2470,6 @@ Ajoutez un 2e badge "★ 4.5" dans le coin inférieur droit
 
 #### 📝 Exercice 2 : Positioned 4 Coins 
 
-**Objectif Bloom** : Niveau 3 (Appliquer)  
-**Type** : Palier 2 (Guidance modérée)
-
 **Structure fournie** :
 
 ```dart
@@ -2705,19 +2689,7 @@ Ces widgets vont vous permettre de créer des listes infinies, performantes, scr
 
 ---
 
-### 📋 Auto-Évaluation Leçon 3.3
 
-Cochez les objectifs atteints :
-
-- [ ] **Objectif 1** : J'explique le z-index avec schéma (3 couches minimum)
-- [ ] **Objectif 2** : Je positionne un widget avec Positioned en ≤5 min
-- [ ] **Objectif 3** : Je crée un overlay semi-transparent en ≤8 min
-- [ ] **Objectif 4** : J'analyse l'ordre d'empilement (≥80% précision)
-- [ ] **Objectif 5** : Je compose une carte avec badges en ≤15 min
-
-
-
----
 
 ## SESSION 2 - LISTES ET GRILLES (4 heures)
 
