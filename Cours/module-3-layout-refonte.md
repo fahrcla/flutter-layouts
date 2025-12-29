@@ -1845,7 +1845,7 @@ Sur un écran de 500px de large : 200 + 200 + 200 = **600 > 500** → OVERFLOW !
 
 
 
-**Solution attendue** :
+**Solution** :
 ```dart
 Row(
   children: [
@@ -1890,17 +1890,6 @@ C'est impossible avec Row/Column seuls ! Il nous faut la **3e dimension : Z** (p
 
 Ces widgets vont vous permettre de créer des interfaces avec plusieurs "couches" superposées. Rendez-vous dans la Leçon 3.3 pour maîtriser la dimension Z !
 
----
-
-### 📋 Auto-Évaluation Leçon 3.2
-
-Cochez les objectifs atteints :
-
-- [ ] **Objectif 1** : Je calcule les proportions avec flex ratios 
-- [ ] **Objectif 2** : Je choisis entre Expanded et Flexible 
-- [ ] **Objectif 3** : Je crée une interface 30/70 
-- [ ] **Objectif 4** : Je résous un overflow avec Expanded 
-- [ ] **Objectif 5** : Je compose un layout responsive 
 
 
 ---
