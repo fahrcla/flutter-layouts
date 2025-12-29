@@ -1561,8 +1561,6 @@ class MonApp extends StatelessWidget {
 
 #### 📝 Exercice 1 : Expanded Ratio 1:2:1 
 
-**Objectif Bloom** : Niveau 3 (Appliquer)  
-**Type** : Palier 1 (Guidance maximale)
 
 **Code fourni** :
 
@@ -1672,8 +1670,6 @@ Créez une Row avec 4 Expanded : flex 1, 2, 2, 1 (total = 6)
 
 #### 📝 Exercice 2 : Flexible vs Expanded 
 
-**Objectif Bloom** : Niveau 4 (Analyser)  
-**Type** : Palier 2 (Guidance modérée)
 
 **Structure fournie** :
 
@@ -1765,16 +1761,12 @@ class MonApp extends StatelessWidget {
 
 **✏️ M - Modify** : Dans l'exemple Flexible, changez "Court" en "Texte très long"
 
-**🛠️ M - Make** : Ajoutez un 3e exemple avec un mix Expanded + Flexible
 
-**Temps estimé** : 10 min
 
 ---
 
 #### 📝 Exercice 3 : Interface Sidebar 30/70 (Palier 3) - 15 min
 
-**Objectif Bloom** : Niveau 5 (Évaluer/Choisir)  
-**Type** : Palier 3 (Guidance minimale)
 
 **Énoncé** :
 
