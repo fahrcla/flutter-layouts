@@ -75,7 +75,7 @@ class MonApp extends StatelessWidget {
                       child: Container(
                         color: Colors.blue[200],
                         padding: const EdgeInsets.all(8),
-                        child: const Text('Autre'),
+                        child: const Text('Autre lkajsdfkj adslfkj aslkdfj lasjkdf lajs dfljas dlf'),
                       ),
                     ),
                   ],
