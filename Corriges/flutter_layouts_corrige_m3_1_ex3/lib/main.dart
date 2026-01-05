@@ -1,72 +1,55 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp( MainApp());
-}
+void main() => runApp(const MonApp());
 
-class MainApp extends StatelessWidget {
-   const MainApp({super.key});
+class MonApp extends StatelessWidget {
+  const MonApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(title: const Text('Ma Column')),
         body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Row(
-              // 🎯 Alignement : center
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                // 1️⃣ ROUGE
-                Container(
-                  width: 80,
-                  height: 80,
-                  margin: const EdgeInsets.all(
-                    4,
-                  ), // Optionnel: ajoute un petit espace entre les enfants
-                  decoration: BoxDecoration(
-                    color: Colors.red,
-                    borderRadius: BorderRadius.circular(
-                      16,
-                    ), // 🎯 Coins arrondis: 16
-                  ),
-                ),
+          child: Column(
+            // TODO 1 : Choisir un mainAxisAlignment (Vertical)
+            mainAxisAlignment: MainAxisAlignment
+                .center, // Centré verticalement (comme suggéré)
+            // TODO 2 : Choisir un crossAxisAlignment (Horizontal)
+            crossAxisAlignment:
+                CrossAxisAlignment.start, // Alignement à gauche (comme suggéré)
 
-                // 2️⃣ JAUNE
-                Container(
-                  width: 80,
-                  height: 80,
-                  margin: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    color: Colors.yellow,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                ),
+            children: [
+              // TODO 3 : Créer un Text avec "Titre Principal"
+              const Text(
+                'Titre Principal',
+                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+              ),
 
-                // 3️⃣ VERT
-                Container(
-                  width: 80,
-                  height: 80,
-                  margin: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                ),
+              const SizedBox(height: 16), // Espacement vertical
+              // TODO 4 : Créer un Text avec "Sous-titre descriptif"
+              Text(
+                'Sous-titre descriptif',
+                style: TextStyle(fontSize: 18, color: Colors.grey[600]),
+              ),
 
-                // 4️⃣ BLEU
-                Container(
-                  width: 80,
-                  height: 80,
-                  margin: const EdgeInsets.all(4),
-                  decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                ),
-              ],
-            ),
+              const SizedBox(height: 24),
+
+              // TODO 5 : Créer un ElevatedButton avec texte "Action"
+              ElevatedButton(
+                onPressed: () {
+                  print('Bouton cliqué !');
+                },
+                child: const Text('Action'),
+              ),
+              // 4e élément ajouté ici
+              const SizedBox(height: 16),
+              const Icon(
+                Icons.star, // Exemple d'icône
+                size: 40,
+                color: Colors.amber,
+              ),
+            ],
           ),
         ),
       ),
